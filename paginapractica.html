@@ -44,6 +44,8 @@
         }
 
         .contenido {
+            display: flex;
+            flex-direction: column;
             background-color: blueviolet;
             height: 300px;
             width: 300px;
@@ -67,11 +69,14 @@
             <div class="box box3"> <a href="https://www.google.com.ar/"> <img src="./imagenes/menu.png" alt="MENU" height="130px" width="130px"> </a></div>
         </div>
         <div class="container2">
-            <div class="contenido">
-            <form action="">
-                <legend> <titulo-formulario> LOGIN </titulo-formulario> </legend>
+            <div class="contenido"> 
+                <div class="caja caja1">
+                    <legend><titulo-formulario> LOGIN </titulo-formulario> </legend>
+                </div>
                 <br>
                 <br>
+                <form class="caja caja2" action="">
+               
 
                 <input type="text" placeholder="USUARIO">
                 <br>
